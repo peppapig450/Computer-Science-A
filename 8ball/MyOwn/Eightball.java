@@ -1,5 +1,3 @@
-package MyOwn;
-
 import java.util.Scanner;
 
 /**

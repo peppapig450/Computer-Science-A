@@ -1,5 +1,3 @@
-package Replt;
-
 import java.util.*;
 
 public class Eightball {

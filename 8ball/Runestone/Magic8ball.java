@@ -1,5 +1,3 @@
-package Runestone;
-
 public class Magic8ball {
     public static void main(String[] args) {
         String a = "It is certain.";
