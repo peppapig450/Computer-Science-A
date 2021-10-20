@@ -141,3 +141,33 @@
 ---
 
 ## Activity 2
+
+---
+
+### Start
+
+---
+
+> These are the simple Magpie chatbot's respones to the statements/questions under the start heading
+
+---
+
+- **Input:** My mother and I talked last night.
+- **Response:** Tell me more about your family.
+
+---
+
+- **Input:** I said no!
+- **Response:** Why so negative?
+
+---
+
+- **Input:** The weather is nice.
+- **Response:** Interesting, tell me more.
+
+---
+
+- **Input:** Do you know my brother?
+- **Response:** Why so negative?
+  
+---
