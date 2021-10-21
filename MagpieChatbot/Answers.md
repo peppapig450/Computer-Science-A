@@ -221,3 +221,5 @@ If the substring does not occur in the string `indexOf` returns -
 |     5     | -1  |  " "   |  " "  |
 |     6     |  3  |  "k"   |  "w"  |
 |     7     |  7  |  " "   |   t   |
+
+---
