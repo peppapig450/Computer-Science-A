@@ -58,10 +58,10 @@
 > Chatbots used
 
 [**iEinstien**](https://www.pandorabots.com/pandora/talk?botid=ea77c0200e365cfb)
-: I am going to refer to this as *1*
+: I am going to refer to this as _1_
 
 [**Madam Zena's Chatroom**](http://www.madamzena.com)
-: I am going to refer to this as *2*
+: I am going to refer to this as _2_
 
 ---
 
@@ -72,7 +72,7 @@
 
 - A zoo is an excellent place to study the habits of human beings.(2)
 - Can a zoo be anything else?(1)
-  
+
 ---
 
 - Some of them are able to.(2)
@@ -136,13 +136,11 @@
 
 1. Some keywords the chatbots seem to respond to include **try**, **glad**, **zoo**, **probable**, **think**, and **joking**.
 
-2. The keyword **joking** seems to produce the response *very funny* and the keyword **think** appears to produce the response *are you sure*.
+2. The keyword **joking** seems to produce the response _very funny_ and the keyword **think** appears to produce the response _are you sure_.
 
 ---
 
 ## Activity 2
-
----
 
 ### Start
 
@@ -169,18 +167,18 @@
 
 - **Input:** Do you know my brother?
 - **Response:** Why so negative?
-  
+
 ---
 
 ### Exercises
 
 ---
 
-|     Keyword      |     Response      |
-|    :-----:       |      :-----:      |
-|      Yes         |      Certainly.   |
-|      Okay        |  Yes, it is okay. |
-|      What's up   | What's poppin chief.|
+|  Keyword  |       Response       |
+| :-------: | :------------------: |
+|    Yes    |      Certainly.      |
+|   Okay    |   Yes, it is okay.   |
+| What's up | What's poppin chief. |
 
 ---
 
@@ -195,3 +193,31 @@ You can prioritize responses in the reply method by placing if statements before
 > 1. What happens when a keyword is included in another word? Consider statements like “I know all the state capitals” and “I like vegetables smothered in cheese.” Explain the problem with the responses to these statements.
 
 The problem with these statements is that the response the bot returns has nothing to do with what was input.
+
+---
+
+## Activity 3
+
+### Exploration: Using the API
+
+---
+
+> **Question:** What value is returned by indexOf if the substring does not occur in the string?
+
+If the substring does not occur in the string `indexOf` returns -
+
+---
+
+### Exploration: Understand the new method
+
+---
+
+| Iteration | psn | before | after |
+| :-------: | :-: | :----: | :---: |
+|     1     |  9  |  " "   |  " "  |
+|     2     |  0  |  " "   |  " "  |
+|     3     |  8  |  " "   |  "c"  |
+|     4     | 19  |  " "   |  "s"  |
+|     5     | -1  |  " "   |  " "  |
+|     6     |  3  |  "k"   |  "w"  |
+|     7     |  7  |  " "   |   t   |
