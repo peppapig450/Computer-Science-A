@@ -204,7 +204,7 @@ The problem with these statements is that the response the bot returns has nothi
 
 > **Question:** What value is returned by indexOf if the substring does not occur in the string?
 
-If the substring does not occur in the string `indexOf` returns -
+If the substring does not occur in the string `indexOf` returns -1
 
 ---
 
@@ -221,5 +221,11 @@ If the substring does not occur in the string `indexOf` returns -
 |     5     | -1  |  " "   |  " "  |
 |     6     |  3  |  "k"   |  "w"  |
 |     7     |  7  |  " "   |   t   |
+
+---
+
+## Activity 4
+
+### Exercise
 
 ---

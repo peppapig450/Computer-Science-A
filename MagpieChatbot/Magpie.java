@@ -233,7 +233,7 @@ public class Magpie {
          * @return a non-committal string
          */
         private String getRandomResponse() {
-                final int NUMBER_OF_RESPONSES = 4;
+                final int NUMBER_OF_RESPONSES = 5;
                 double r = Math.random();
                 int whichResponse = (int) (r * NUMBER_OF_RESPONSES);
                 String response = "";
