@@ -2,7 +2,11 @@
 
 ## Activity 1
 
+---
+
 [**Chatbot I used**](https://www.pandorabots.com/pandora/talk?botid=c1baddb74e35ebd0)
+
+---
 
 ### Question 2
 
@@ -134,19 +138,21 @@
 
 ---
 
-1. Some keywords the chatbots seem to respond to include **try**, **glad**, **zoo**, **probable**, **think**, and **joking**.
+1. Some keywords the chatbots seem to respond to include, `try`, `glad`, `zoo`, `probable`, `think`, and `joking`.
 
-2. The keyword **joking** seems to produce the response _very funny_ and the keyword **think** appears to produce the response _are you sure_.
+2. The keyword `joking` seems to produce the response `very funny` and the keyword `think` appears to produce the response `are you sure`.
 
 ---
 
 ## Activity 2
 
+---
+
 ### Start
 
 ---
 
-> These are the simple Magpie chatbot's respones to the statements/questions under the start heading
+> These are the simple Magpie chatbot's responses to the statements/questions under the start heading
 
 ---
 
@@ -174,6 +180,8 @@
 
 ---
 
+> Table containing the 3 new keywords and responses
+
 |  Keyword  |       Response       |
 | :-------: | :------------------: |
 |    Yes    |      Certainly.      |
@@ -198,19 +206,23 @@ The problem with these statements is that the response the bot returns has nothi
 
 ## Activity 3
 
+---
+
 ### Exploration: Using the API
 
 ---
 
 > **Question:** What value is returned by indexOf if the substring does not occur in the string?
 
-If the substring does not occur in the string `indexOf` returns -1
+If the substring does not occur in the string, `indexOf` returns -1.
 
 ---
 
 ### Exploration: Understand the new method
 
 ---
+
+> Table for tracing the values `psn`, `before`, and `after` each time the program control reaches the point in the method indicated by the comment
 
 | Iteration | psn | before | after |
 | :-------: | :-: | :----: | :---: |
@@ -226,6 +238,14 @@ If the substring does not occur in the string `indexOf` returns -1
 
 ## Activity 4
 
+---
+
 ### Exercise
+
+---
+
+> **Question:** Find an example of when this structure does not work well. How can you improve it?
+
+Inputting `I would like to tell you`  returns `Why do you would like to tell me?`. This could maybe be improved by restricting the <something\> in the middle of the I and you to maybe two words maximum.
 
 ---
