@@ -18,7 +18,7 @@ checkCommands() {
 }
 
 run() {
-	if [ -z $($find . -maxdepth 1 -type f -name '*.class' -printf 1 -quit) ]; then
+        if ls $(pwd)/*.class > /dev/null 2>&1 ; then
 		java Main
 	else
 		javac "${files[@]}" && java Main
