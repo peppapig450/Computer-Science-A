@@ -10,11 +10,6 @@ checkCommands() {
 		echo "Java not found, exiting.."
 		return 127
 	fi
-	if [[ $(uname) = 'Darwin' ]]; then
-		find='gfind'
-	else
-		find='find'
-	fi
 }
 
 run() {
