@@ -32,8 +32,7 @@ public class Keychains3 {
                 checkout(total_kc, price, tax, base_ship, additional_shipping(total_kc) );
             else 
                 System.out.println("\nERROR! Please try again.");
-        } while (choice != 4); 
-        
+        } while (choice != 4);         
     }
 
     // Prompts user and then adds that number to keychain total
